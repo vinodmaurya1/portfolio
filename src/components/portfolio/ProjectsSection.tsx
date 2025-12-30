@@ -20,8 +20,18 @@ const projects = [
     description:
       "AgentLabs includes a website but does not provide a CMS for editing. Any website changes must be made directly through the code. We can share the file path, however customization support is not provided as per Envato terms.",
     image: "/agentlabs.png",
-    tech: ["React", "Socket.io", "Agora", "Firebase", "Express"],
+    tech: ["React","Nodejs","Postgres","Twillio", "Socket.io","Firebase", "Express"],
     liveUrl: "https://codecanyon.net/item/agentlabs-ai-voice-calling-agents-lead-intelligence-saas-platform/60751656?s_rank=1",
+    githubUrl: "#",
+    featured: true,
+  },
+  {
+    title: "EsimConnect - eSIM Management SaaS Platform",
+    description:
+      "EsimConnect is a comprehensive eSIM management SaaS platform that enables users to easily manage and deploy eSIM profiles for their devices. With features like user authentication, profile management, and analytics, EsimConnect provides a seamless experience for both administrators and end-users.",
+    image: "/esimconnect.png",
+    tech: ["React","Nodejs","Postgres", "Firebase", "Express"],
+    liveUrl: "https://esimconnect.diploy.in/",
     githubUrl: "#",
     featured: true,
   },
